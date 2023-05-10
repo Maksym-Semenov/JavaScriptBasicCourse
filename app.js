@@ -40,7 +40,8 @@ console.log(typeof NaN);
 
 a = 2 + '10';
 console.log(a - 10);
-
+let g = null;
+console.log(g);
 console.log(Boolean(0));
 console.log(Boolean(''));
 console.log(Boolean(undefined));
@@ -87,6 +88,11 @@ let t = 2; // срок инвестирования в годах
 let FV = calculateCompoundInterest(PV, r, n, t); // вычисляем будущую стоимость инвестиции
 console.log("Будущая стоимость инвестиции: $" + FV);
 
+}
+
+//Chapter 5 Lesson 22 Оператори рівності
+{
+	
 }
 
 
