@@ -90,16 +90,101 @@ console.log("Будущая стоимость инвестиции: $" + FV);
 
 }
 
-//Chapter 5 Lesson 22 Оператори рівності
+// Chapter 5 Lesson 22 Оператори рівності
 {
-	
+	const secretNumber = 7;
+	if(secretNumber === 7){
+		console.log('Вгадав точно');
+	}
+	if(secretNumber == 7){
+		console.log('Вгадав неточно');
+	}
+
+	/*const q = prompt('Введіть число')
+	if(q == 7){
+		console.log('Hey');
+	}*/
 }
 
+// Chapter 5 Lesson 23 Switch
+{
+	const role = 'manager';
+	if (role === 'manager'){
+		console.log('Менеджер');
+	}else if (role === 'admin'){
+		console.log('Адмін');
+	}
+
+	switch (role) {
+		case 'manager':
+			console.log('Менеджер');
+			break;
+		case 'admin':
+			console.log('Адмін');
+			break;
+		case 'ceo':
+			console.log('СЕО');
+			break;
+		default:
+		console.log('Я тебе не знаю');
+
+	}
+
+	switch (role) {
+		case 'manager':			
+		case 'admin':
+			console.log('Не керівник');
+			break;
+		case 'ceo':
+			console.log('Керівник');
+			break;
+		default:
+		console.log('Я тебе не знаю');
+	}
+
+	const num = 1;
+	switch (true) {
+		case num > 0:
+			console.log('Додатній');
+			break;
+		case num < 0:
+			console.log('Від`ємний');
+			break;
+		default:
+			console.log('Нуль');
+	}
+}
+
+// Chapter 5 Lesson 24 Тернарні оператори
+{
+	const BMVX3Price = 100000;
+	const fordFocusPrice = 10000;
+	const budget = 2007000;
+
+let message = '123';
+
+if (budget > 100000) 
+	message = "BMW";
+else if (budget > fordFocusPrice) {
+	message = 'Ford';
+}else {
+	message = 'Байк';
+}
+
+console.log('Я хочу купити');
+	console.log(`Я хочу купити ${message}`);
+
+budget > 100000 ? console.log('BMW') : console.log('Ford');
+
+const str = budget > 100000 ? 'BMW' : 'Ford';
+console.log(str);
+console.log(`Я можу придбати + ${budget > BMVX3Price ? 'BMW,' : 'Ford,'}`);
 
 
 
+}
 
-
-
-
-
+// Chapter 5 Lesson 25 Task
+{
+	const question = prompt `Яка буде відповідь`
+}
