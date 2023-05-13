@@ -186,7 +186,7 @@
 
 // Chapter 5 Lesson 25 Task
 {
-	const question = prompt`Яка буде відповідь`
+	//const question = prompt`Яка буде відповідь`
 }
 
 // Chapter 5 Lesson 27 Оператори логіки
@@ -199,5 +199,14 @@
 
 // Chapter 5 Lesson 30 Task
 {
-	
+	const balance = 1000;
+	const bonusBalance = 90;
+
+	const isBunned = true;
+	const isExist = true;
+	const isSelling = true;
+
+	const result = ((balanse > 1000 || bonusBalance > 100) && (isBunned && isExist && isSelling));
+	console.log(result);
+
 }
